@@ -1,0 +1,42 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    filter: opacity(90%);
+}
+h1{
+    color: rgba(168, 114, 64, 0.987);
+    font-size: 40px;
+    font-weight: 150;
+    word-spacing: 5px;
+    text-align: center;
+}
+h2{
+    color: rgba(192, 148, 77, 0.836);
+    font-size: 30px;
+    font-weight: 300;
+}
+p{
+    word-spacing: 8px;
+}
+h3{
+    color: rgb(220, 191, 153);
+}
+ol{
+    list-style-image: url(../images/img_marcador.png);
+}
+ul{
+    list-style: circle;
+}
+a{
+    text-decoration: none;
+    color: rgb(152, 72, 72);
+}
+a:hover{
+    color: rgb(206, 76, 28);
+}
+img:hover{
+    filter: opacity(100%);
+}
